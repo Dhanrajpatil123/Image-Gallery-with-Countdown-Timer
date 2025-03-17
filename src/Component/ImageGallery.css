@@ -1,0 +1,38 @@
+/* Reduce Card Size */
+.custom-card {
+    max-width: 250px;  /* Smaller width */
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Set Image Height and Fit */
+  .custom-card .card-img-top {
+    height: 180px; /* Adjust image height */
+    object-fit: cover; /* Ensure images fit nicely */
+  }
+  
+  /* Image Zoom Effect */
+  .image-container {
+    overflow: hidden;
+  }
+  
+  .zoom-effect {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .zoom-effect:hover {
+    transform: scale(1.1); /* Zoom In Effect */
+  }
+  
+  /* Center Cards */
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Reduce Button Size */
+  .btn-sm {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+  
